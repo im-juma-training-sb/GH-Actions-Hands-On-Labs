@@ -26,7 +26,7 @@ All exercises are performed directly in your GitHub repository.
 3. **Configure the repository**:
    - **Repository name**: `github-actions-fundamentals`
    - **Description**: `Learning GitHub Actions through hands-on labs`
-   - **Visibility**: ✅ **Private** (gets unlimited free Actions minutes)
+   - **Visibility**: ✅ **Internal or Private** 
    - ✅ **Add a README file**
    - ✅ **Add .gitignore**: Select "Node" from template dropdown
    - **License**: Optional (e.g., MIT)
