@@ -1,1 +1,1 @@
-# GH-Actions-Hands-On-Labs-
+# GH-Actions-Hands-On-Labs
