@@ -1,4 +1,4 @@
-# Lab 2: Your First Workflow
+# Lab 1: Your First Workflow
 
 **Duration:** 45-60 minutes  
 **Level:** Beginner-Intermediate   
