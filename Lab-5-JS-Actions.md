@@ -512,8 +512,15 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    
       - uses: actions/checkout@v4
       
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./.github/actions/repo-info
+        
+
       - name: Get repository info
         id: repo-info
         uses: ./.github/actions/repo-info
@@ -526,6 +533,7 @@ jobs:
           echo "Repository: ${{ steps.repo-info.outputs.repo-name }}"
           echo "Stars: ${{ steps.repo-info.outputs.stars }}"
           echo "Open Issues: ${{ steps.repo-info.outputs.open-issues }}"
+
 ```
 
 9. Click **Commit changes** → **Commit changes**.
